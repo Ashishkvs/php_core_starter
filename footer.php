@@ -1,5 +1,5 @@
 <!-- footer starts here  -->
-<div class="footer container">
+<footer class="footer container">
     <div class="row">
         <div class="col-md-3">
           <h1>Resources</h1>
@@ -15,7 +15,7 @@
         </div>
 
     </div>
-</div>
+</footer>
 <p class="float-right">
         <a href="#">Back to top</a>
 </p>
