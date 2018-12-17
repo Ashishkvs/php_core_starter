@@ -1,0 +1,24 @@
+body {
+min-height: 75rem;
+padding-top: 4.5rem;
+}
+.top_bottom{
+margin-top:10px;
+margin-bottom:20px;
+}
+.our_products{
+height: 350px; width: 100%; display: block;
+}
+.parallax {
+/* The image used */
+background-image: url("../images/ban.jpg");
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
