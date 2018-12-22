@@ -55,8 +55,8 @@
                   </div>
                 </div>
               </div>
-            <div class="top_bottom float-right">
-              <a href="#" class="btn btn-outline-primary ">All Products</a>
+            <div class="top_bottom text-center">
+              <a href="#" class="justify-content-center btn btn-outline-primary ">All Products</a>
             </div>
 
         </div>
@@ -66,7 +66,25 @@
    <!-- ends of Our Products  -->
    <div class="parallax">
           <div class="container ">
-              <h1 class="text-center">Hello</h1>
+
+          <div class="owl-carousel owl-theme">
+               <!-- 1st card  -->
+              <div class="card top_bottom">
+                <div class="temonial_cards">
+                    <img class="card-img-top img-responsive shadow " src="images/pen.jpg" alt="Card image cap">
+                    <h3 class="text-center">Hotel Name</h3>
+                    <p class="text-center text-muted">Hotel Place</p>
+                    <p>Message By Hotel Dealer...........</p>
+                    <h3 class="text-center">Manager Name</h3>
+                    <p class="text-center text-muted">Manager Designation</p>
+                    <a href="#" class="justify-content-center btn btn-primary ">Read More..</a>
+                </div>
+              </div>
+
+
+
+
+          </div>
           </div>
    </div>
 
@@ -77,4 +95,69 @@
     <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
   </div>
 </main>
+
+
 <!-- end of main content  -->
+<!-- our connectivity  -->
+  <div class="container-fluid jumbotron justify">
+    <h1 class="text-center">Our Connectivity Range</h1>
+
+          <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+            <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+              <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                  <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                    <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                      <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                        <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                          <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                            <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                              <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                                <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                                  <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+                                    <img src="images/pen_write.jpg" class="img-responsive coonectivity_img" alt="">
+  </div>
+  <!-- our technology solutions trusted by  -->
+<div class="container">
+    <h2 class="text-center">Our Technology Soultions Trusted By</h2>
+    <div class="pb-sm-5 d-inline-block  circle_div">Padded Div</div>
+    <div class="pb-md-5 d-inline-block  circle_div">Padded Div</div>
+    <div class="pb-lg-5 d-inline-block  circle_div">Padded Div</div>
+    <div class="pb-xl-5 d-inline-block  circle_div">Padded Div</div>
+
+</div>
+
+<!-- carousel script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          responsiveClass:true,
+         autoplay:true,
+         // smartSpeed:1400,
+         // autoplayTimeout:5000,
+          autoplayHoverPause:true,
+         // loop:false,
+         // dots:false,
+          //  nav:false
+          responsive:{
+              0:{
+                  items:1,
+                  nav:true
+              },
+              600:{
+                  items:3,
+                  nav:false
+              },
+              1000:{
+                  items:5,
+                  nav:true,
+                  loop:false
+              }
+              //according to device adjust items and its nav
+          }
+          })
+    </script>

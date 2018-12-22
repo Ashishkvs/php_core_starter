@@ -5,6 +5,17 @@
       <title>Home</title>
       <!-- headlink.php -->
       <?php require_once('headlink.php'); ?>
+      <!-- for carousel -->
+      <style media="screen">
+      .item{
+        border: 1px solid;
+        background-color:nonw;
+        margin:10px;
+        padding:5px;
+        box-shadow: 5px 10px 20px #ececf9 inset;
+      }
+    </style>
+
   </head>
 
   <body>
