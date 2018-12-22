@@ -10,11 +10,11 @@
   <body>
     <!-- navigation  header -->
     <?php require_once('header.php'); ?>
-    <!-- section wise content  -->
+    <!-- about  -->
     <section class="why ">
-    <div class="layer py-5">
-      <h3 class="heading text-center text-uppercase">Testimonial</h3>
-    </div>
+  	<div class="layer py-5">
+  		<h3 class="heading text-center text-uppercase">About Us</h3>
+  	</div>
   </section>
 
     <!-- footer.php -->
